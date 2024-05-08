@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Agro Pricer</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script src="js/slider.js"></script>
+    <script type="module" src="js/main.js" defer></script>
+
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+      <link rel="stylesheet" href="css/ie.css" />
+    <![endif]-->
+  </head>
+  <body>
+    <div class="main-bg">
+      <!-- Header -->
+      <header>
+        <div class="inner">
+          <h1 class="logo">
+            <a href="index.html"><img /></a>
+          </h1>
+          <nav class="nav">
+            <ul class="sf-menu">
+              <li><a href="#product">our product</a></li>
+              <li><a href="#about_us">about us</a></li>
+              <li><a href="#contact">contact us</a></li>
+            </ul>
+            <button class="button subscribe">Subscribe</button>
+          </nav>
+          <div class="clear"></div>
+        </div>
+        <div class="slider-container">
+          <div class="mp-slider">
+            <ul class="items">
+              <li>
+                <img src="images/slide-1.jpg" alt="" />
+                <div class="banner mp-ban-1">
+                  <span class="row-1">putting our</span
+                  ><span class="row-2">heart &amp; soul</span
+                  ><span class="row-3">into the field</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/slide-2.jpg" alt="" />
+                <div class="banner mp-ban-2">
+                  <span class="row-1">we have a strong</span
+                  ><span class="row-2">agriculture</span
+                  ><span class="row-3">heritage</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/slide-3.jpg" style="opacity: 0.1" alt="" />
+                <div class="banner mp-ban-3">
+                  <span class="row-1">growing clean</span
+                  ><span class="row-2">and full of health</span
+                  ><span class="row-3">products</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="mp-prev"></a> <a href="#" class="mp-next"></a>
+      </header>
+      <!-- Content -->
+      <section id="content">
+        <div class="container_24">
+          <div class="wrapper">
+            <div class="grid_24 content-bg">
+              <div class="wrapper">
+                <div class="grid_16 suffix_1 prefix_1 alpha">
+                  <article class="indent-bot">
+                    <h2 id="product">Our product:</h2>
+                    <div class="wrapper hr-border-1">
+                      <div class="grid_4 alpha">
+                        <img
+                          src="images/rice.jpeg"
+                          class="img-indent-bot"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="def-list-1">
+                          <p>Rice</p>
+                        </div>
+                      </div>
+                      <div class="grid_4">
+                        <img
+                          src="images/beans.jpeg"
+                          class="img-indent-bot"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="def-list-1">
+                          <p>Beans</p>
+                        </div>
+                      </div>
+                      <div class="grid_4">
+                        <img
+                          src="images/spaghetti.jpeg"
+                          class="img-indent-bot"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="def-list-1">
+                          <p>Spaghetti</p>
+                        </div>
+                      </div>
+                      <div class="grid_4 omega">
+                        <img
+                          src="images/marcaroni.jpeg"
+                          class="img-indent-bot"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="def-list-1">
+                          <p>Marcaroni</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alignright">
+                      <button class="button subscribe">Subscribe</button>
+                    </div>
+                  </article>
+                  <article class="banner-box">
+                    <div class="inner">
+                      <h3 id="about_us">What we do:</h3>
+                      <h4>
+                        we provide
+                        <span style="color: red">live price updates</span> of
+                        agricultural products from different market points at
+                        the
+                        <span style="color: red">comfort of your home!</span>
+                      </h4>
+                      <!-- <blockquote class="quote indent-right"> <strong>Agro pricer has helped me a lot when it comes </strong> (note that contact us form - doesn't work) Vivamus hendrerit mauris ut dui. gravida ut viverra lectus tincidunt. Cras mattis tempor eros nec tristique. Sed sed felis arcu, vel vehicula augue. Maecenas faucibus sagittis cursus. Fusce tincidunt, tellus eget tristique cursus, orci mi iaculis sem. </blockquote>
+                  <div class="alignright indent-right"> <span class="author">John Smith <i>(breeder)</i></span> </div> -->
+                    </div>
+                    <div class="alignright">
+                      <button class="button subscribe">Subscribe</button>
+                    </div>
+                  </article>
+                  <article
+                    style="margin-top: 20px"
+                    class="grid_15 suffix_1 omega"
+                  >
+                    <h2 id="contact">Contact us:</h2>
+                    <form action="#" id="contact-form" method="post">
+                      <fieldset>
+                        <label class="name">
+                          <span>Full name:</span>
+                          <input id="contact_us_name" type="text" />
+                        </label>
+                        <label class="email">
+                          <span>Email:</span>
+                          <input id="contact_us_email" type="email" required />
+                        </label>
+                        <label class="message">
+                          <span>Message:</span>
+                          <textarea id="contact_us_message" required></textarea>
+                        </label>
+                        <div class="btns">
+                          <button class="button contact_us">Submit</button>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </article>
+                </div>
+                <div class="grid_5 suffix_1 omega">
+                  <article>
+                    <h2>Available products:</h2>
+                    <ul class="list-1">
+                      <li><span>Rice</span></li>
+                      <li><span>Beans</span></li>
+                      <li><span>Sphaghetti</span></li>
+                      <li><span>Marcaroni</span></li>
+                      <li><span>And more...</span></li>
+                      <li><span></span></li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container_24">
+          <div class="wrapper">
+            <div class="grid_24 footer-bg">
+              <div class="hr-border-2"></div>
+              <div class="wrapper">
+                <div class="grid_7 suffix_1 prefix_1 alpha">
+                  <div class="copyright">
+                    &copy; 2024 <strong class="footer-logo">Agro Pricer</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div id="subscribe_form" class="overlay">
+      <div class="popup">
+        <article
+          style="margin-top: 20px; border: 1px solid white"
+          class="grid_15 suffix_1 omega"
+        >
+          <h2 id="contact">Subscribe to product:</h2>
+          <form id="contact-form">
+            <fieldset>
+              <div>
+                <label class="name" style="color: white">
+                  <div>Email:</div>
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="e.g. john@gmail.com"
+                  required
+                  style="background-color: white"
+                />
+              </div>
+              <div>----</div>
+              <label class="message" style="color: white">
+                <div>
+                  List of products to subscribe to (use Ctrl + left mouse to
+                  select multiple options):
+                </div>
+                <select
+                  style="width: 100%"
+                  name="products_list"
+                  id="products_list"
+                  multiple
+                >
+                  <option value="rice">Rice</option>
+                  <option value="beans">Beans</option>
+                  <option value="spaghetti">Spaghetti</option>
+                  <option value="marcaroni">Marcaroni</option>
+                </select>
+              </label>
+              <div class="btns">
+                <button class="button send_mail close">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+        </article>
+      </div>
+    </div>
+
+    <div class="toast-message"></div>
+  </body>
+</html>
